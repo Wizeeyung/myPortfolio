@@ -4,7 +4,7 @@ import { testimonials } from '../../data'
 
 const Clients = () => {
   return (
-    <div className='pb-20 flex flex-col justify-center' id='projects'>
+    <div className='pt-[40px] flex flex-col justify-center' id='testimonials'>
       <h1 className='heading'>
         Testimonials {' '}
         <span className='text-purple'>from Clients</span>
