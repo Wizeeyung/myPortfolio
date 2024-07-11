@@ -6,7 +6,7 @@ import { socialMedia } from '../../data';
 
 const Footer = () => {
   return (
-    <footer className='w-full pt-20 ' id='contact'>
+    <footer className='w-full pt-20 mb-[80px] md:mb-5' id='contact'>
       <div className='w-full absolute left-0 -bottom-72 min-h-96'>
         <img  src='/footer-grid.svg' alt='grid' className='w-full h-full opacity-50'/>
       </div>
@@ -18,11 +18,11 @@ const Footer = () => {
         <div className='flex items-center gap-3 z-10'>
           {socialMedia.map((media)=>(
             <a key={media.id} href={media.link} target='_blank'>
-              <img src={media.img} alt={media.img} className='cursor-pointer opacity-50 w-8 h-8'/>
+              <img src={media.img} alt={media.img} className='cursor-pointer opacity-50 sm:w-8 sm:h-8'/>
             </a>
           ))}
         </div>
-        <div className='flex gap-6'>
+        <div className='flex md:flex-row flex-col gap-2 mt-2 lg:gap-6 '>
         <a href="mailto:ogunbanwosamson@gmail.com">
           <Magicbutton  title="Let's get in touch"
             icon={<BiMailSend />}

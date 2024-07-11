@@ -20,11 +20,10 @@ const Hero = () => {
       </div>
       <div className='flex justify-center z-10 relative my-20'>
           <div className='max-w-[89vw] flex flex-col items-center justify-center md:max-w-2xl lg:max-w-[60vw]'>
-            <h2 className='uppercase tracking-widest text-xs text-center max-w-80 text-blue-100'>Dynamic web magic with Samson</h2>
-            <TextGenerateEffect className='lg:text-6xl text-[40px] text-center md:text-5xl' words='Transforming Concepts into Similar Experiences'/>
-            
-            <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>Hi, i am samson based in London, UK</p>
-            <a href='#about'><Magicbutton title='Show my work' icon={<FaLocationArrow />} position='right'/></a>
+          <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>Hi, i am samson based in London, UK</p>
+            <TextGenerateEffect className='lg:text-6xl text-[40px] text-center md:text-5xl' words='Crafting Digital Experiences with Code and Creativity'/>
+            <h2 className='tracking-widest text-[12px] text-center mb-2 sm:mb-0 max-w-[70vw] sm:max-w-[50vw] text-blue-100 opacity-50'>A passionate web developer dedicated to turning ideas into impactful digital solutions.</h2>
+            <a href='#projects'><Magicbutton title='Show my work' icon={<FaLocationArrow />} position='right'/></a>
           </div>
         </div>
     </div>

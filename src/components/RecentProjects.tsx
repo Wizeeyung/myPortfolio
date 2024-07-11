@@ -7,6 +7,7 @@ import { FaLocationArrow } from 'react-icons/fa6'
 import Magicbutton from '@/ui/Magicbutton'
 import CardMagicBtn from '@/ui/CardMagicBtn'
 import ShowMoreMagicBtn from '@/ui/showMoreMagicBtn'
+import Image from 'next/image'
 
 const RecentProjects = () => {
 
@@ -26,9 +27,9 @@ const RecentProjects = () => {
       
       <div className='flex flex-wrap items-center justify-center p-4 gap-x-24  gap-y-8 '>
         {displayedProjects.map(({id, title, des,img, iconLists, link})=>(
-          <div key={id} className='sm:h-[41rem] lg:h-[26rem]  lg:min-h-[32.5rem] h-[32rem] flex items-center justify-center sm:w-[80vw] md:w-[300px] w-[80vw] lg:w-[300px]'>
+          <div key={id} className='sm:h-[41rem] lg:h-[26rem]  lg:min-h-[32.5rem] h-[32rem] flex items-center justify-center sm:w-[80vw] sm:mt-6 w-[80vw] lg:w-[300px]'>
             <PinContainer title='visit' href={link}>
-            <div className='relative flex items-center justify-center sm:w-[60vw] sm:h-[35vh] w-[80vw] overflow-hidden h-[30vh] lg:h-[30vh] md:w-[300px]'>
+            <div className='relative flex flex-wrap items-center justify-center sm:w-[60vw] sm:h-[35vh] w-[80vw] overflow-hidden h-[30vh] lg:h-[30vh] lg:w-[300px]'>
               <div className='relative w-full h-full overflow-hidden  rounded-lg border-white/[0.9]'>
                 <img src='/bg.png' alt='bg-img'/>
               </div>
