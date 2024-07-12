@@ -4,7 +4,6 @@ import React, { useState } from 'react'
 import { projects } from '../../data'
 import { PinContainer } from '../ui/3d-pin'
 import { FaLocationArrow } from 'react-icons/fa6'
-import Magicbutton from '@/ui/Magicbutton'
 import CardMagicBtn from '@/ui/CardMagicBtn'
 import ShowMoreMagicBtn from '@/ui/showMoreMagicBtn'
 import Image from 'next/image'
@@ -19,7 +18,7 @@ const RecentProjects = () => {
   }
 
   return (
-    <div className='py-20 flex flex-col justify-center' id='projects'>
+    <div className='pb-20 pt-[120px] flex flex-col justify-center' id='projects'>
       <h1 className='heading'>
         Some Selections of {' '}
         <span className='text-purple'>recent project</span>

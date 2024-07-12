@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I prioritize client collaboration, fostering open communication.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "I'm very flexible with time zone communications.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -28,7 +28,7 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
+    title: "My tech stack.",
     description: "I constantly try to improve",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Tech enthusiast with a passion continuous learning.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Building rich and functional Web applications.",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -61,7 +61,7 @@ export const gridItems = [
 
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Do you want us to start a project together?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -99,80 +99,80 @@ export const projects = [
   {
     id: 4,
     title: "Netflix Clone",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    des: "Recreated the Netflix clone with a Login/Logout functionality which gives a very rich website.",
     img: "/flix.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://wizflix-clone.netlify.app/",
   },
   {
     id: 5,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "Gallery Website",
+    des: "This website was made with pure HTML, CSS & JavaScript to develop a rich and responsive website",
+    img: "/gallery.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/levelupesg/esg-diagnostic-assessment",
+    link: "https://wizzy-portfolio-website.netlify.app/",
   },
   {
     id: 6,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    title: "Filtering & Search Cart",
+    des: "This is a sample filter and search cart with different search functionalities.",
+    img: "/cart.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://filteringsearchcart.netlify.app/",
   },
   {
     id: 7,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    title: "TO-DO List App",
+    des: "This is a to-do list application built with react and uses Redux for state management.",
+    img: "/todo.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://wizzytodo-list.netlify.app/",
   },
   {
     id: 8,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
+    title: "Facebook Clone",
+    des: "This is a facebook clone built with pure HTML,CSS & Vanilla JavaScript and it's not responsive.",
+    img: "/fbook.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://main--wizbookclone.netlify.app/",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-    img: "/profile-pic-wiz.jpg",
+      "Working with Samson was a game-changer for our business. The website they built for us is both visually stunning and highly functional.",
+    name: "Sarah Haileys",
+    title: "Freelance Client",
+    img: "/user.svg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Samson's expertise in front-end development transformed our user interface, making it more intuitive and engaging for our clients.",
     name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-    img: "/profile-pic-wiz.jpg",
+    title: "Freelance Client",
+    img: "/user.svg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-    img: "/profile-pic-wiz.jpg",
+      "We hired Samson for a complete backend overhaul. The new system is robust and has significantly improved our operational efficiency.",
+    name: "Emily Davis",
+    title: "Freelance Client",
+    img: "/user.svg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-    img: "/profile-pic-wiz.jpg",
+      "Samson delivered an exceptional e-commerce platform that boosted our sales by 30%. Their attention to detail and creativity are unmatched.",
+    name: "Jessica Wilson",
+    title: "Freelance Client",
+    img: "/user.svg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-    img: "/profile-pic-wiz.jpg",
+      "Collaborating with Samson was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project.",
+    name: "David Brown",
+    title: "Freelance Client",
+    img: "/user.svg",
   },
 ];
 
@@ -212,31 +212,31 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Software Engineer (LevelUp ESG)",
+    desc: "Integrated sustainability practices into software development, aligning with company's sustainability goal to enhance management of sustainability data for businesses.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Freelance Frontend/Backend Dev.",
+    desc: "Experienced full-stack developer building dynamic websites and web applications for businesses, enhancing their online presence and efficiency.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    title: "Junior Web Dev. (Abrahams Hub)",
+    desc: "Collaborated with team to enhance functionality of web applications, resulting in 20% increase in user satisfaction levels and successful launch of 3 new features. ",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "MSc Computing (Bangor Uni, UK)",
+    desc: "Developed solid foundation in computer fundamentals and software development principles.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp3.svg",
   },
 ];
 
