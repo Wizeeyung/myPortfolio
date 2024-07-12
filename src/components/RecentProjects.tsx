@@ -5,8 +5,8 @@ import { projects } from '../../data'
 import { PinContainer } from '../ui/3d-pin'
 import { FaLocationArrow } from 'react-icons/fa6'
 import CardMagicBtn from '@/ui/CardMagicBtn'
-import ShowMoreMagicBtn from '@/ui/showMoreMagicBtn'
 import Image from 'next/image'
+import ShowBtn from '@/ui/ShowBtn'
 
 const RecentProjects = () => {
 
@@ -51,9 +51,8 @@ const RecentProjects = () => {
       </div>
 
       <div className='flex justify-center w-full'>
-      <ShowMoreMagicBtn title={showAll ? 'Show Less' : 'Show More'} handleClick={handleShowAll}>
-
-      </ShowMoreMagicBtn>
+      <ShowBtn title={showAll ? 'Show Less' : 'Show More'} handleClick={handleShowAll} />
+      
       </div>
       
 
