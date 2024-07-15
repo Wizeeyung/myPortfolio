@@ -25,13 +25,13 @@ const Footer = () => {
         <div className='flex md:flex-row flex-col gap-2 mt-2 lg:gap-6 '>
         <a href="mailto:ogunbanwosamson@gmail.com">
           <Magicbutton  title="Let's get in touch"
-            icon={<BiMailSend />}
+            icon={<BiMailSend className='ml-2 '/>}
             position='right'
           />
         </a>
-        <a href="https://calendly.com/ogunbanwosamson" target='_blank'>
+        <a href="https://calendly.com/ogunbanwosamson" target='_blank' className='text-sm'>
           <Magicbutton  title="Book a session with us"
-            icon={<MdOutlineDateRange />}
+            icon={<MdOutlineDateRange className='ml-2 '/>}
             position='right'
           />
         </a>

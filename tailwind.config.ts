@@ -75,6 +75,9 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        btn: {
+          pop: "linear-gradient(90deg, rgba(192,191,209,1) 0%, rgba(144,76,199,1) 48%, rgba(156,172,162,1) 84%, rgba(122,111,154,1) 100%);"
+        }
       },
       borderRadius: {
         lg: "var(--radius)",
