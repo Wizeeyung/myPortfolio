@@ -43,7 +43,7 @@ const RecentProjects = () => {
                 </div>
               ))}         
             </div>
-            <CardMagicBtn title='Show Live Site' icon={<FaLocationArrow />} position='right'/>
+            <CardMagicBtn title='Show Live Site' icon={<FaLocationArrow className='ml-2'/>} position='right'/>
             
             </PinContainer>
           </div>
